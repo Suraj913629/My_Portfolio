@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import ProjectModal from './components/ProjectModal/ProjectModal';
 import { useLocalStorage } from './hooks/useLocalStorage';
-import './styles/App.css';
+import './Styles/App.css';
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', false);
